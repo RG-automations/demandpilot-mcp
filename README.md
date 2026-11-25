@@ -186,8 +186,8 @@ Measured on this machine (Python 3.14.4, `mcp==2.3.0`, `statsmodels==0.15.0`):
 
 - `pytest tests/` - **99 passed**, 0 failed (6 database, 17 data-generator, 11 evaluation,
   14 forecasting, 8 inventory-logic, 26 replenishment-logic, 14 real-subprocess MCP integration,
-  3 server edge cases). Updated after an independent pre-publication audit and remediation - see
-  [`POST_AUDIT_REPORT.md`](POST_AUDIT_REPORT.md) (90 original tests + 9 new regression tests).
+  3 server edge cases). Updated after an independent pre-publication audit and remediation
+  (90 original tests + 9 new regression tests).
 - `ruff check .` - all checks passed.
 - `ruff format --check .` - all files already formatted.
 - Full details, coverage numbers, and the clean-environment reinstall check are in the final
@@ -243,5 +243,4 @@ The commercial-licensing contact in [`COMMERCIAL_LICENSE.md`](COMMERCIAL_LICENSE
 `kontakt@splotix.pl`. No other file in this repository names a copyright holder at all (not even
 as a placeholder) - `LICENSE`, `LICENSING.md`, and this README only ever say "the copyright
 holder" generically, which AGPL-3.0 does not require to be a specific name. All of this should
-still be reviewed by a qualified lawyer before any public release or commercial use - see
-[`POST_AUDIT_REPORT.md`](POST_AUDIT_REPORT.md) for the full licensing audit.
+still be reviewed by a qualified lawyer before any public release or commercial use.
