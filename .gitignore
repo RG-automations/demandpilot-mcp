@@ -18,3 +18,10 @@ dist/
 # (see POST_AUDIT_REPORT.md section 4). The public examples/claude_code_config.json
 # uses a placeholder path instead and is meant to be published.
 .mcp.json
+
+# Internal working documents (agent work order, audit trails, tooling config) kept
+# locally for the project's own record, not meant for the public repository.
+SPECIFICATION.md
+FINAL_REPORT.md
+POST_AUDIT_REPORT.md
+CLAUDE.md
