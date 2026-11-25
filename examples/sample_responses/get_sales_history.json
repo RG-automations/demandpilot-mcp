@@ -1,0 +1,188 @@
+{
+  "sku": "DEMO-003",
+  "reference_date": "2026-01-01",
+  "requested_days": 30,
+  "returned_days": 30,
+  "records": [
+    {
+      "date": "2025-12-02",
+      "quantity_sold": 30,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-03",
+      "quantity_sold": 37,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-04",
+      "quantity_sold": 28,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-05",
+      "quantity_sold": 31,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-06",
+      "quantity_sold": 37,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-07",
+      "quantity_sold": 32,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-08",
+      "quantity_sold": 35,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-09",
+      "quantity_sold": 34,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-10",
+      "quantity_sold": 27,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-11",
+      "quantity_sold": 32,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-12",
+      "quantity_sold": 34,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-13",
+      "quantity_sold": 34,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-14",
+      "quantity_sold": 24,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-15",
+      "quantity_sold": 38,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-16",
+      "quantity_sold": 37,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-17",
+      "quantity_sold": 23,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-18",
+      "quantity_sold": 36,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-19",
+      "quantity_sold": 28,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-20",
+      "quantity_sold": 30,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-21",
+      "quantity_sold": 21,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-22",
+      "quantity_sold": 21,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-23",
+      "quantity_sold": 28,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-24",
+      "quantity_sold": 34,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-25",
+      "quantity_sold": 33,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-26",
+      "quantity_sold": 36,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-27",
+      "quantity_sold": 31,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-28",
+      "quantity_sold": 29,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-29",
+      "quantity_sold": 36,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-30",
+      "quantity_sold": 31,
+      "is_promotion": false,
+      "is_stockout": false
+    },
+    {
+      "date": "2025-12-31",
+      "quantity_sold": 27,
+      "is_promotion": false,
+      "is_stockout": false
+    }
+  ]
+}

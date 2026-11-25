@@ -1,0 +1,109 @@
+{
+  "is_synthetic": true,
+  "seed": 42,
+  "reference_date": "2026-01-01",
+  "generator_version": "1.0.0",
+  "note": "All SKUs, product names, and sales figures are fictional demo data.",
+  "products": [
+    {
+      "sku": "DEMO-001",
+      "product_name": "Demo Product 01 (Stable)",
+      "demand_profile": "stable"
+    },
+    {
+      "sku": "DEMO-002",
+      "product_name": "Demo Product 02 (Weekly Seasonality)",
+      "demand_profile": "weekly_seasonality"
+    },
+    {
+      "sku": "DEMO-003",
+      "product_name": "Demo Product 03 (Trend Up)",
+      "demand_profile": "trend_up"
+    },
+    {
+      "sku": "DEMO-004",
+      "product_name": "Demo Product 04 (Trend Down)",
+      "demand_profile": "trend_down"
+    },
+    {
+      "sku": "DEMO-005",
+      "product_name": "Demo Product 05 (Promotional)",
+      "demand_profile": "promotional"
+    },
+    {
+      "sku": "DEMO-006",
+      "product_name": "Demo Product 06 (Intermittent)",
+      "demand_profile": "intermittent"
+    },
+    {
+      "sku": "DEMO-007",
+      "product_name": "Demo Product 07 (Slow Mover)",
+      "demand_profile": "slow_mover"
+    },
+    {
+      "sku": "DEMO-008",
+      "product_name": "Demo Product 08 (No Sales)",
+      "demand_profile": "no_sales"
+    },
+    {
+      "sku": "DEMO-009",
+      "product_name": "Demo Product 09 (Short History)",
+      "demand_profile": "short_history"
+    },
+    {
+      "sku": "DEMO-010",
+      "product_name": "Demo Product 10 (Historical Stockout)",
+      "demand_profile": "historical_stockout"
+    },
+    {
+      "sku": "DEMO-011",
+      "product_name": "Demo Product 11 (Stable)",
+      "demand_profile": "stable"
+    },
+    {
+      "sku": "DEMO-012",
+      "product_name": "Demo Product 12 (Weekly Seasonality)",
+      "demand_profile": "weekly_seasonality"
+    },
+    {
+      "sku": "DEMO-013",
+      "product_name": "Demo Product 13 (Trend Up)",
+      "demand_profile": "trend_up"
+    },
+    {
+      "sku": "DEMO-014",
+      "product_name": "Demo Product 14 (Trend Down)",
+      "demand_profile": "trend_down"
+    },
+    {
+      "sku": "DEMO-015",
+      "product_name": "Demo Product 15 (Promotional)",
+      "demand_profile": "promotional"
+    },
+    {
+      "sku": "DEMO-016",
+      "product_name": "Demo Product 16 (Intermittent)",
+      "demand_profile": "intermittent"
+    },
+    {
+      "sku": "DEMO-017",
+      "product_name": "Demo Product 17 (Slow Mover)",
+      "demand_profile": "slow_mover"
+    },
+    {
+      "sku": "DEMO-018",
+      "product_name": "Demo Product 18 (No Sales)",
+      "demand_profile": "no_sales"
+    },
+    {
+      "sku": "DEMO-019",
+      "product_name": "Demo Product 19 (Short History)",
+      "demand_profile": "short_history"
+    },
+    {
+      "sku": "DEMO-020",
+      "product_name": "Demo Product 20 (Historical Stockout)",
+      "demand_profile": "historical_stockout"
+    }
+  ]
+}

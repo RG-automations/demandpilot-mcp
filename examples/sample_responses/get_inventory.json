@@ -1,0 +1,13 @@
+{
+  "sku": "DEMO-003",
+  "as_of_date": "2026-01-01",
+  "on_hand": 175,
+  "on_order": 292,
+  "reserved": 0,
+  "inventory_position": 467,
+  "lead_time_days": 21,
+  "review_period_days": 9,
+  "moq": 50,
+  "pack_size": 12,
+  "service_level": 0.95
+}

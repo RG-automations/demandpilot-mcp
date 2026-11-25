@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.sqlite
+*.sqlite3
+*.db
+.env
+.env.*
+build/
+dist/
+*.egg-info/
+
+# Project-scoped Claude Code MCP config: contains this machine's real absolute path
+# (see POST_AUDIT_REPORT.md section 4). The public examples/claude_code_config.json
+# uses a placeholder path instead and is meant to be published.
+.mcp.json

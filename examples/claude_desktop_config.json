@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "demandpilot": {
+      "command": "/path/to/demandpilot-mcp/.venv/bin/python",
+      "args": ["-m", "demandpilot", "--db", "/path/to/demandpilot-mcp/demo.sqlite3"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sku": "DEMO-003",
+  "inventory_position": 467,
+  "protection_period_days": 30,
+  "forecast_demand": 920.6028548852669,
+  "safety_stock": 42.076858574574146,
+  "target_level": 962.679713459841,
+  "raw_order_qty": 495.67971345984097,
+  "final_order_qty": 504,
+  "moq": 50,
+  "pack_size": 12,
+  "forecast_model": "holt_winters",
+  "justification": "Target stock level (962.7) exceeds inventory position (467) by 495.7 over the 30-day protection period; rounded up to MOQ 50 and pack size 12 gives an order quantity of 504.",
+  "warnings": []
+}

@@ -1,0 +1,279 @@
+{
+  "reference_date": "2026-01-01",
+  "horizon_days": 14,
+  "products_analyzed": 20,
+  "results": [
+    {
+      "sku": "DEMO-003",
+      "on_hand": 175,
+      "reserved": 0,
+      "on_order": 292,
+      "available_physical_stock": 175,
+      "forecast_horizon_demand": 429.52199474488356,
+      "estimated_stockout_day": 6,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 6, before the 21-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": [
+        "292 units are on order; not counted toward available stock because exact arrival dates are unknown (conservative assumption)."
+      ]
+    },
+    {
+      "sku": "DEMO-005",
+      "on_hand": 254,
+      "reserved": 102,
+      "on_order": 204,
+      "available_physical_stock": 152,
+      "forecast_horizon_demand": 457.3174045219773,
+      "estimated_stockout_day": 5,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 5, before the 6-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": [
+        "204 units are on order; not counted toward available stock because exact arrival dates are unknown (conservative assumption)."
+      ]
+    },
+    {
+      "sku": "DEMO-006",
+      "on_hand": 5,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 5,
+      "forecast_horizon_demand": 13.130657829353481,
+      "estimated_stockout_day": 6,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 6, before the 15-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-010",
+      "on_hand": 128,
+      "reserved": 0,
+      "on_order": 213,
+      "available_physical_stock": 128,
+      "forecast_horizon_demand": 227.24222311386947,
+      "estimated_stockout_day": 8,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 8, before the 12-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": [
+        "213 units are on order; not counted toward available stock because exact arrival dates are unknown (conservative assumption)."
+      ]
+    },
+    {
+      "sku": "DEMO-011",
+      "on_hand": 437,
+      "reserved": 243,
+      "on_order": 0,
+      "available_physical_stock": 194,
+      "forecast_horizon_demand": 295.24272431925374,
+      "estimated_stockout_day": 10,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 10, before the 10-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-012",
+      "on_hand": 429,
+      "reserved": 172,
+      "on_order": 344,
+      "available_physical_stock": 257,
+      "forecast_horizon_demand": 398.8813223011523,
+      "estimated_stockout_day": 10,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 10, before the 19-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": [
+        "344 units are on order; not counted toward available stock because exact arrival dates are unknown (conservative assumption)."
+      ]
+    },
+    {
+      "sku": "DEMO-013",
+      "on_hand": 217,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 217,
+      "forecast_horizon_demand": 667.3784388261415,
+      "estimated_stockout_day": 5,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 5, before the 19-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-017",
+      "on_hand": 3,
+      "reserved": 0,
+      "on_order": 5,
+      "available_physical_stock": 3,
+      "forecast_horizon_demand": 5.231799473659663,
+      "estimated_stockout_day": 8,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 8, before the 16-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": [
+        "5 units are on order; not counted toward available stock because exact arrival dates are unknown (conservative assumption)."
+      ]
+    },
+    {
+      "sku": "DEMO-019",
+      "on_hand": 270,
+      "reserved": 108,
+      "on_order": 216,
+      "available_physical_stock": 162,
+      "forecast_horizon_demand": 366.0,
+      "estimated_stockout_day": 7,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 7, before the 8-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": [
+        "216 units are on order; not counted toward available stock because exact arrival dates are unknown (conservative assumption)."
+      ]
+    },
+    {
+      "sku": "DEMO-020",
+      "on_hand": 114,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 114,
+      "forecast_horizon_demand": 409.5852282835467,
+      "estimated_stockout_day": 4,
+      "risk_level": "HIGH",
+      "can_assess": true,
+      "justification": "Projected to run out on day 4, before the 7-day lead time elapses; a reorder placed today could not arrive in time.",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-001",
+      "on_hand": 70,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 70,
+      "forecast_horizon_demand": 127.42987561958083,
+      "estimated_stockout_day": 8,
+      "risk_level": "MEDIUM",
+      "can_assess": true,
+      "justification": "Projected to run out on day 8, within the 13-day protection period but after lead time has elapsed.",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-015",
+      "on_hand": 123,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 123,
+      "forecast_horizon_demand": 170.59906485551775,
+      "estimated_stockout_day": 11,
+      "risk_level": "MEDIUM",
+      "can_assess": true,
+      "justification": "Projected to run out on day 11, within the 17-day protection period but after lead time has elapsed.",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-002",
+      "on_hand": 837,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 837,
+      "forecast_horizon_demand": 212.69956012161128,
+      "estimated_stockout_day": null,
+      "risk_level": "NONE",
+      "can_assess": true,
+      "justification": "Forecasted demand (212.7) over the 14-day horizon does not exceed available stock (837).",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-004",
+      "on_hand": 434,
+      "reserved": 241,
+      "on_order": 0,
+      "available_physical_stock": 193,
+      "forecast_horizon_demand": 153.90712973242705,
+      "estimated_stockout_day": null,
+      "risk_level": "NONE",
+      "can_assess": true,
+      "justification": "Forecasted demand (153.9) over the 14-day horizon does not exceed available stock (193).",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-007",
+      "on_hand": 70,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 70,
+      "forecast_horizon_demand": 5.853593662714953,
+      "estimated_stockout_day": null,
+      "risk_level": "NONE",
+      "can_assess": true,
+      "justification": "Forecasted demand (5.9) over the 14-day horizon does not exceed available stock (70).",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-008",
+      "on_hand": 5,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 5,
+      "forecast_horizon_demand": 0.0,
+      "estimated_stockout_day": null,
+      "risk_level": "NONE",
+      "can_assess": true,
+      "justification": "Forecasted demand (0.0) over the 14-day horizon does not exceed available stock (5).",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-009",
+      "on_hand": 599,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 599,
+      "forecast_horizon_demand": 178.0,
+      "estimated_stockout_day": null,
+      "risk_level": "NONE",
+      "can_assess": true,
+      "justification": "Forecasted demand (178.0) over the 14-day horizon does not exceed available stock (599).",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-014",
+      "on_hand": 532,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 532,
+      "forecast_horizon_demand": 36.85183708307614,
+      "estimated_stockout_day": null,
+      "risk_level": "NONE",
+      "can_assess": true,
+      "justification": "Forecasted demand (36.9) over the 14-day horizon does not exceed available stock (532).",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-016",
+      "on_hand": 60,
+      "reserved": 0,
+      "on_order": 0,
+      "available_physical_stock": 60,
+      "forecast_horizon_demand": 12.180658417290493,
+      "estimated_stockout_day": null,
+      "risk_level": "NONE",
+      "can_assess": true,
+      "justification": "Forecasted demand (12.2) over the 14-day horizon does not exceed available stock (60).",
+      "warnings": []
+    },
+    {
+      "sku": "DEMO-018",
+      "on_hand": 15,
+      "reserved": 8,
+      "on_order": 0,
+      "available_physical_stock": 7,
+      "forecast_horizon_demand": 0.0,
+      "estimated_stockout_day": null,
+      "risk_level": "NONE",
+      "can_assess": true,
+      "justification": "Forecasted demand (0.0) over the 14-day horizon does not exceed available stock (7).",
+      "warnings": []
+    }
+  ]
+}
