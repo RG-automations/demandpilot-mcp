@@ -33,7 +33,7 @@ is read-only and advisory.
 - Rule-based (not statistical-probability) stockout risk classification.
 - A deterministic synthetic data generator covering 10 demand-profile scenarios and 7
   inventory scenarios (including incoming orders and reservations) across 20 demo SKUs.
-- 99 automated tests, including real subprocess + official-client MCP protocol tests.
+- 101 automated tests, including real subprocess + official-client MCP protocol tests.
 
 ## Architecture
 
@@ -184,14 +184,14 @@ python -m pytest tests/ --cov=demandpilot --cov-report=term-missing
 
 Measured on this machine (Python 3.14.4, `mcp==2.3.0`, `statsmodels==0.15.0`):
 
-- `pytest tests/` - **99 passed**, 0 failed (6 database, 17 data-generator, 11 evaluation,
-  14 forecasting, 8 inventory-logic, 26 replenishment-logic, 14 real-subprocess MCP integration,
-  3 server edge cases). Updated after an independent pre-publication audit and remediation
-  (90 original tests + 9 new regression tests).
+- `pytest tests/` - **101 passed**, 0 failed (6 database, 17 data-generator, 11 evaluation,
+  14 forecasting, 9 inventory-logic, 26 replenishment-logic, 14 real-subprocess MCP integration,
+  4 server edge cases). Grown from an original 90 through two rounds of audit-driven regression
+  tests (9 from an independent pre-publication audit, 2 from a later focused fix).
 - `ruff check .` - all checks passed.
 - `ruff format --check .` - all files already formatted.
-- Full details, coverage numbers, and the clean-environment reinstall check are in the final
-  report (prepared separately, in Polish, per the project's working convention).
+- Full details and coverage numbers were captured in an internal audit report, kept as a local
+  working document and not included in this repository.
 
 ## Security and Privacy
 
@@ -208,10 +208,9 @@ Measured on this machine (Python 3.14.4, `mcp==2.3.0`, `statsmodels==0.15.0`):
 
 ## Limitations
 
-See the "Documented limitations" section of [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) and the
-Limitations section of the final implementation report for the complete list (fixed lead time,
-no delivery scheduling, no lost-demand estimation, single fixed backtest window, synthetic data
-only, no real-client Claude Desktop/Code testing performed, etc.).
+See the "Documented limitations" section of [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for the
+complete list (fixed lead time, no delivery scheduling, no lost-demand estimation, single fixed
+backtest window, synthetic data only, etc.).
 
 ## Licensing
 
