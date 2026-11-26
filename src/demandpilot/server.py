@@ -279,7 +279,15 @@ def create_server(db_path: Path) -> MCPServer:
                             "justification": f"Could not be assessed: {exc}",
                         }
                     )
-            assessments.sort(key=lambda a: RISK_ORDER.get(a.get("risk_level", "NONE"), 9))
+            # Failed assessments (can_assess=False) sort before every successfully
+            # assessed row - including NONE - so a scan failure is never hidden
+            # among genuinely safe SKUs (post-audit finding).
+            assessments.sort(
+                key=lambda a: (
+                    0 if not a.get("can_assess", True) else 1,
+                    RISK_ORDER.get(a.get("risk_level", "NONE"), 9),
+                )
+            )
             return {
                 "reference_date": meta.reference_date,
                 "horizon_days": horizon_days,

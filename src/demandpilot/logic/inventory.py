@@ -75,7 +75,7 @@ def assess_stockout_risk(
 
     horizon_demand = sum(daily_forecast)
 
-    if available <= 0 and horizon_demand > 0:
+    if available <= 0:
         return StockoutRiskAssessment(
             sku=product.sku,
             on_hand=inventory.on_hand,

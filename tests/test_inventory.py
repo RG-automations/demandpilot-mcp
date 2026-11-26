@@ -98,7 +98,20 @@ def test_on_order_reported_as_context_not_used_in_risk():
 
 def test_zero_forecast_demand_means_no_risk():
     product = make_product()
-    inventory = make_inventory(on_hand=0)
+    inventory = make_inventory(on_hand=5)
     result = assess_stockout_risk(product, inventory, [0.0] * 14)
     assert result.risk_level == RISK_NONE
     assert result.estimated_stockout_day is None
+
+
+def test_already_negative_available_stock_is_high_risk_even_with_zero_demand():
+    # reserved (10) exceeds on_hand (5): physical stock is already oversold today,
+    # independent of whether any demand is forecast - this must not be reported as
+    # a "day 1" future stockout (post-audit finding, see logic/inventory.py).
+    product = make_product()
+    inventory = make_inventory(on_hand=5, reserved=10)
+    result = assess_stockout_risk(product, inventory, [0.0] * 14)
+    assert result.available_physical_stock == -5
+    assert result.risk_level == RISK_HIGH
+    assert result.estimated_stockout_day == 0
+    assert "day" not in result.justification.lower()
